@@ -5,13 +5,13 @@ https://flightpp.herokuapp.com/
  info:
  This is a Random forest model for predicting flight prices.
  
- summary
+ #summary
  
 LinearRegression : 
 
- root mse: 2863.9705929717807
+- root mse: 2863.9705929717807
  
- R^2: 0.61959437290701
+ - R^2: 0.61959437290701
  
 Lasso : 
 
