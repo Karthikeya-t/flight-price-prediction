@@ -5,7 +5,8 @@ https://flightpp.herokuapp.com/
  # INFO:
  This is a Random forest model for predicting flight prices.
   
-  Dataset- 
+  Dataset- https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh
+  
 - Size of training set: 10683 records
 - Size of test set: 2671 records
 - FEATURES: Airline: The name of the airline.
@@ -19,8 +20,10 @@ https://flightpp.herokuapp.com/
 - Total_Stops: Total stops between the source and destination.
 - Additional_Info: Additional information about the flight
 - Price: The price of the ticket
+
+ # steps followed
  
- #summary
+ ## summary
  
 LinearRegression : 
 
@@ -52,7 +55,7 @@ RandomForestRegressor :
  
  - R^2: 0.7971647688458681
 
-# After Hyperparameter tuning
+## After Hyperparameter tuning
 best parameters
 
 {'n_estimators': 700,
@@ -65,7 +68,7 @@ best parameters
 
 'max_depth': 20}
  
- # Final values 
+ ## Final values 
 root mse: 2010.889719116718
 
 R^2: 0.8124632733697996
