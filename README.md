@@ -21,7 +21,12 @@ https://flightpp.herokuapp.com/
 - Additional_Info: Additional information about the flight
 - Price: The price of the ticket
 
- # steps followed
+ ## Steps followed
+ - Drop the null values
+ - Create a new columns as Date ,Month using Date_of_Journey (using pd.to_datetime)
+ - Coverted Duration HH:MM to HH,MM 
+ - Drop the Route column
+ - Tried with following models
  
  ## summary
  
